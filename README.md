@@ -9,7 +9,7 @@ Este proyecto contiene un sistema de autenticación basado en tokens JWT, desarr
 
 ## 🚀 Instalación rápida
 
-git clone https://github.com/usuario/proyecto.git
+gh repo clone Digito-01/proyAsitenteInteligente
 cd proyecto
 cd backend && npm install
 cd ../frontend && npm install
