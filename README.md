@@ -1,12 +1,54 @@
-# React + Vite
+echo "# Sistema de Login con React + Express + JWT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto contiene un sistema de autenticación basado en tokens JWT, desarrollado con React en el frontend y Express en el backend.
 
-Currently, two official plugins are available:
+## 📁 Estructura del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+/backend   → API REST con Express y JWT
+/frontend  → Aplicación React con login y vistas protegidas
 
-## Expanding the ESLint configuration
+## 🚀 Instalación rápida
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone https://github.com/usuario/proyecto.git
+cd proyecto
+cd backend && npm install
+cd ../frontend && npm install
+
+## ▶️ Cómo correr el proyecto
+
+cd backend
+npm run dev
+
+cd frontend
+npm run dev
+
+## 🔐 Tecnologías utilizadas
+
+### Backend:
+- Express
+- jsonwebtoken
+- dotenv
+- cors
+- bcryptjs
+
+### Frontend:
+- React
+- React Router DOM
+- Context API
+- Fetch API
+
+## 🐧 Uso en WSL (Linux en Windows)
+
+wsl --install
+
+## 📦 Dependencias
+
+### Frontend:
+react, react-dom, react-router-dom
+
+### Backend:
+express, cors, dotenv, jsonwebtoken, bcryptjs
+
+## 📜 Licencia
+
+MIT" > README.md
