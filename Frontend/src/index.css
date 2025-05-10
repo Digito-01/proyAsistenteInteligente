@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @apply bg-base-100 text-base-content;
+}
+@layer components {
+  @apply text-base-content;
+}
+@layer utilities {
+  @apply bg-base-100 text-base-content;
+}
+body {
+  background-color: green; /* Puedes cambiar el color aquí */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: white; /* Cambia el color del texto aquí */
+  text-align: center;
+  margin-top: 20px;
+}
